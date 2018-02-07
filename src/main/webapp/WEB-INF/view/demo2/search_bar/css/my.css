@@ -1,0 +1,493 @@
+.container {
+    margin-top: 30px;
+    width: 95%;
+}
+.top-movies-in-india {
+    background-color: #fff;
+    padding: 3px 14px 14px 44px;
+}
+.top-movies-in-india h4 {
+    color: #007DD3;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 510;
+}
+ul.mov_list li {
+    /*display:inline-block;*/
+    font-weight:400;
+    font-size:1em;
+    /*line-height: 20px;*/
+    /*margin-left: 0.3em;*/
+    font-family: 'Oxygen', sans-serif;
+}
+
+ul.mov_list li .score-div,
+ul.mov_list li .score-div1,
+ul.mov_list li .score-div2 {
+    width: 50px;
+    height: 16px;
+    font-size:0.9em;
+    float: left;
+    padding-top: 1.8px;
+    font-style: italic;
+}
+ul.mov_list li .score-div1 {
+    width: 30px;
+    text-align: right;
+}
+ul.mov_list li .score-div2 {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+ul.mov_list li:first-child {
+    margin-bottom: 10px;
+}
+/*ul.mov_list li:last-child {*/
+    /*margin-top: 15px;*/
+/*}*/
+
+ul.mov_list li i.fa.fa-star{
+    color:#007DD3;
+    margin-right:3px;
+}
+ul.mov_list {
+    margin-top: 12px;
+}
+ul.mov_list li a {
+    font-weight: 600;
+    font-size: 1em;
+    /*margin-left: 0.3em;*/
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+ul.mov_list li a:hover {
+    color: #007DD3;
+    text-decoration: none;
+}
+
+.jq-stars {
+    height: 16px;
+    float: left;
+}
+
+.recomm_item {
+    width: 322px;
+    height: 80px;
+    background-color: rgb(75, 158, 255);
+    padding-top: 1px;
+    padding-left: 30px;
+    margin-left: -30px;
+    border-radius: 5px;
+    color: #fff!important;
+}
+.recomm_item a {
+    color: #fff!important;
+}
+
+/*********************** Logo ************************/
+.cd-logo {
+    display: inline-block;
+    height: 100%;
+    margin-left: 15px;
+    /* remove jump on iOS devices - when we fire the navigation */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.cd-logo img {
+    display: block;
+    /*margin-top: 14px;*/
+    margin-top: 8px;
+    height: 66px;
+}
+@media only screen and (min-width: 1024px) {
+    .cd-logo {
+        position: absolute;
+        z-index: 3;
+        margin-left: 3%;
+    }
+    .cd-logo img {
+        /*margin-top: 29px;*/
+        margin-top: 8px;
+    }
+}
+
+/*********************** Cloud Tag ==> main id ************************/
+#main {
+    width: 100%;
+    height: 800px;
+    /*margin-top: -50px;*/
+}
+
+/*********************** roll pic (start) ************************/
+.review-slider {
+    background: #fff;
+    padding: 2em 0;
+}
+.slide-title h4 {
+    padding: 10px 8px;
+    color: #000;
+    display: block;
+    background-color: #fff;
+    height: 65px;
+    overflow:hidden;
+    font-size: 0.95em;
+    font-weight: 600;
+    line-height:1.4em;
+    text-align:center;
+    font-family: 'Oxygen', sans-serif;
+}
+.buy-tickets {
+    display:none;
+}
+.date-city {
+    background-color: #FCFCFC;
+    padding: 12px 16px;
+    text-align: left;
+    position:relative;
+}
+.date-city h5 {
+    color: #007DD3;
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.date-city h6 {
+    color: #000;
+    font-size: 0.95em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.buy-tickets {
+    background-color:#fff;
+    padding:8px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.buy-tickets a {
+    text-align: center;
+    color: #fff;
+    padding: 9px;
+    background: #003b64;
+    display: block;
+    font-size: 0.95em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.buy-tickets a:hover {
+    color: #000;
+    background-color: #fff200;
+}
+.nbs-flexisel-item:hover div.buy-tickets {
+    display:block;
+    width: 100%;
+}
+.review-slider {
+    padding: 1em 0 2em 0;
+}
+#flexiselDemo1 {
+    display: none;
+}
+.nbs-flexisel-container {
+    position: relative;
+    max-width: 100%;
+}
+.nbs-flexisel-item a img {
+    width: 100%;
+}
+.nbs-flexisel-item a {
+    display:block;
+}
+.nbs-flexisel-ul {
+    position: relative;
+    width: 9999px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+.nbs-flexisel-inner {
+    overflow: hidden;
+    padding: 2em 0;
+}
+.nbs-flexisel-item {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    position: relative;
+    width: 198px! important;
+    margin: 0 15px;
+    box-shadow: 0px 0px 12px -1px rgba(215,215,215,0.44);
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(215,215,215,0.44);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(215,215,215,0.44);
+    -o-box-shadow: 0px 0px 12px -1px rgba(215,215,215,0.44);
+    -ms-box-shadow: 0px 0px 12px -1px rgba(215,215,215,0.44);
+    font-family: 'Oxygen', sans-serif;
+}
+.nbs-flexisel-item > img {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    margin: 0 0%;
+}
+/*** Navigation ***/
+.nbs-flexisel-nav-left {
+    display:none;
+}
+.nbs-flexisel-nav-right {
+    display:none;
+}
+.review-slider {
+    background: #fff;
+    padding: 0 0 2em 0;
+}
+.slide-title h4 {
+    padding: 10px 8px;
+    color: #000;
+    display: block;
+    background-color: #fff;
+    height: 65px;
+    overflow:hidden;
+    font-size: 0.95em;
+    font-weight: 600;
+    line-height:1.4em;
+    text-align:center;
+    font-family: 'Oxygen', sans-serif;
+}
+.buy-tickets {
+    display:none;
+}
+.date-city {
+    background-color: #FCFCFC;
+    padding: 12px 16px;
+    text-align: left;
+    position:relative;
+}
+.date-city h5 {
+    color: #007DD3;
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.date-city h6 {
+    color: #000;
+    font-size: 0.95em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.buy-tickets {
+    background-color:#fff;
+    padding:8px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.buy-tickets a {
+    text-align: center;
+    color: #fff;
+    padding: 9px;
+    background: #003b64;
+    display: block;
+    font-size: 0.95em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.buy-tickets a:hover {
+    color: #000;
+    background-color: #fff200;
+}
+.nbs-flexisel-item:hover div.buy-tickets {
+    display:block;
+    width: 100%;
+}
+
+#roll-pic-title {
+    color: #007DD3;
+    /*margin-top: 50px;*/
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 510;
+}
+/*********************** roll pic (end) ************************/
+
+/*********************** copy-rights (start) ************************/
+.copy-rights {
+    /*margin-top: 1em;*/
+    padding: 1em 0 3em 0;
+    background:#333545;
+}
+.copy-rights p {
+    font-size: 0.9em;
+    font-weight: 280;
+    color: #fff;
+    margin-top: 20px;
+}
+.copy-rights p a {
+    color:#fff;
+}
+/*********************** copy-rights (end) ************************/
+
+/*********************** left-similar-search (start) ************************/
+.left-similar-search h4 {
+    color: #007DD3;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 510;
+}
+.left-similar-search h5 {
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: 510;
+}
+.left-similar-search h6 {
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #8B5F65;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.similar-users-search {
+    margin-top: 50px;
+}
+/*********************** left-similar-search (end) ************************/
+
+/*********************** Similar Users model (start) ************************/
+.modal-title {
+    color: #007DD3;
+    font-size: 1em!important;
+    font-weight: 510!important;
+}
+.modal-body {
+    padding: 30px;
+}
+.modal-body p {
+    margin-top: 10px!important;
+}
+.modal-body ul li:first-child {
+    margin-top: 10px;
+}
+.modal-body-li {
+    color: #8B5F65;
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.modal-body-li a {
+    color: dodgerblue;
+}
+/*********************** Similar Users model (end) ************************/
+
+/*********************** Similar Movies search model (start) ************************/
+.item-desc-detail {
+    /*background-color: #fff;*/
+    /*background-color: red;*/
+    width: 100%;
+    /*height: 100px;*/
+}
+.item-desc-detail-1, .item-desc-detail-2 {
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+}
+.item-desc-detail-1 a {
+    color: #000;
+    font-size: 1em;
+    overflow: hidden;
+    line-height: 1.6em;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding: 6px 0px;
+    display:block;
+    font-family: 'Oxygen', sans-serif;
+    text-decoration:none;
+}
+.item-desc-detail-2 {
+    color: #BDBDBD;
+}
+.download-btn {
+    margin-top: 10px;
+}
+.download-btn a {
+    text-align: center;
+    color: #fff;
+    padding: 7px;
+    background: #003b64;
+    display: block;
+    font-size: 0.875em;
+    font-weight: 700;
+    text-decoration:none;
+}
+.download-btn a:hover {
+    color: #000;
+    background-color: #fff200;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.filtr-container {
+    float: left;
+}
+.right-bar {
+    float: left;
+}
+/* addition */
+#myModal_simi .modal-body {
+
+}
+.modal-footer {
+    border-top: #fff!important;
+}
+/*********************** Similar Movies search (end) ************************/
+
+/*********************** "similar_movies.html" (start) ************************/
+.filtr-item-sm {
+    margin-top: 10px;
+}
+/*********************** "similar_movies.html" (end) ************************/
+
+/*********************** "similar_users.html" (end) ************************/
+.similar-users-list ul li:first-child {
+    margin-top: 10px;
+}
+.similar_user_line {
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+/*********************** "similar_users.html" (end) ************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

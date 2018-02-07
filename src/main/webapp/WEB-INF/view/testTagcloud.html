@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <title>tagcloud - Demo</title>
+    <link rel="stylesheet" type="text/css" href="/resources/css/tagcloud.min.css">
+    <script src="/resources/js/tagcloud.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+    #light {
+        background: #012;
+        color: #ddb
+    }
+    .box {
+        position: absolute;
+        width: 75%;
+        height: 100%;
+        margin-top: -100px;
+        margin-left: 25%
+    }
+    .box.box1 {
+        left: auto;
+        right: 15%;
+        margin-left: 0
+    }
+    .box2 {
+        position: fixed;
+        top: 50%;
+        left: 15%;
+        width: 400px;
+        height: 400px;
+        margin-top: -300px
+    }</style>
+</head>
+<body>
+<div class="box">
+    <div class="tagcloud" id="tagCloud">
+        <!--I will add this part content in js code-->
+    </div>
+</div>
+<script>
+local_data = '/resources/data/movies1.json';
+var plot_bg_color = "#012";
+var plot_font_color = "#ddb";
+<!-- JAVASCRIPT CODE GOES HERE -->
+$.get(local_data, function (data) {
+    function includeLeaveOutKey(string) {
+        // 用于除去特定特征的单位
+        var leaveOutKeys = ["xxxxxx"];
+        for (var i in leaveOutKeys) {
+            var key = leaveOutKeys[i];
+            if (string.indexOf(key) != -1)
+                return true;
+        }
+        return false;
+    }
+
+    function addATags(jsondata) {
+        console.log(jsondata);
+        var tagcloudDiv = document.getElementById("tagCloud");
+        // now add this item into tagcloud div
+        for (var i in jsondata) {
+            var record = jsondata[i];
+            var aTag = document.createElement("a");
+            aTag.setAttribute('href', "#");
+            aTag.style.color = "rgb("+parseInt(Math.random()*255)+","+parseInt(Math.random()*255)+","+parseInt(Math.random()*255)+")";
+            aTag.innerHTML = record['name'];
+            tagcloudDiv.appendChild(aTag);
+        }
+    }
+
+    addATags(data);
+
+    var tc = tagcloud({
+        fontsize: 18,       //基本字体大小
+        radius: 250,         //滚动半径
+        mspeed: "normal",   //滚动最大速度
+        ispeed: "normal",   //滚动初速度
+        direction: 65,     //初始滚动方向
+        keep: false          //鼠标移出组件后是否继续随鼠标滚动
+    });
+
+    console.log(tc);
+
+    function toDefault() {
+        document.body.id = "";
+        for (var e = document.getElementsByClassName("tagcloud"), t = 0; t < e.length; t++)
+            e[t].className = "tagcloud"
+    }
+    function toLight() {
+        document.body.id = "light";
+        for (var e = document.getElementsByClassName("tagcloud"), t = 0; t < e.length; t++)
+            e[t].className = "tagcloud tagcloud-light"
+    }
+    function toSingle() {
+        var e = document.getElementsByClassName("box")[0];
+        e.className = "box", document.getElementsByClassName("box2")[0].remove()
+    }
+    function toDouble() {
+        var e = document.getElementsByClassName("box")[0];
+        if (e.className = "box box1", !document.getElementsByClassName("box2")[0]) {
+            var t = e.cloneNode(!0);
+            t.className = "box2", document.getElementsByClassName("content")[0].insertBefore(t);
+            var o = tagcloud();
+            console.log(o)
+        }
+    }
+    toLight();
+});
+</script>
+</body>
+</html>

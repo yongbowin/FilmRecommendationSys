@@ -1,0 +1,222 @@
+[
+  {
+    "id": "1",
+    "name": "Toy Story (1995)",
+    "type_str": "Animation|Children's|Comedy"
+  },
+  {
+    "id": "2",
+    "name": "Jumanji (1995)",
+    "type_str": "Adventure|Children's|Fantasy"
+  },
+  {
+    "id": "3",
+    "name": "Grumpier Old Men (1995)",
+    "type_str": "Comedy|Romance"
+  },
+  {
+    "id": "4",
+    "name": "Waiting to Exhale (1995)",
+    "type_str": "Comedy|Drama"
+  },
+  {
+    "id": "5",
+    "name": "Father of the Bride Part II (1995)",
+    "type_str": "Comedy"
+  },
+  {
+    "id": "6",
+    "name": "Heat (1995)",
+    "type_str": "Action|Crime|Thriller"
+  },
+  {
+    "id": "7",
+    "name": "Sabrina (1995)",
+    "type_str": "Comedy|Romance"
+  },
+  {
+    "id": "8",
+    "name": "Tom and Huck (1995)",
+    "type_str": "Adventure|Children's"
+  },
+  {
+    "id": "9",
+    "name": "Sudden Death (1995)",
+    "type_str": "Action"
+  },
+  {
+    "id": "10",
+    "name": "GoldenEye (1995)",
+    "type_str": "Action|Adventure|Thriller"
+  },
+  {
+    "id": "11",
+    "name": "American President, The (1995)",
+    "type_str": "Comedy|Drama|Romance"
+  },
+  {
+    "id": "12",
+    "name": "Dracula: Dead and Loving It (1995)",
+    "type_str": "Comedy|Horror"
+  },
+  {
+    "id": "13",
+    "name": "Balto (1995)",
+    "type_str": "Animation|Children's"
+  },
+  {
+    "id": "14",
+    "name": "Nixon (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "15",
+    "name": "Cutthroat Island (1995)",
+    "type_str": "Action|Adventure|Romance"
+  },
+  {
+    "id": "16",
+    "name": "Casino (1995)",
+    "type_str": "Drama|Thriller"
+  },
+  {
+    "id": "17",
+    "name": "Sense and Sensibility (1995)",
+    "type_str": "Drama|Romance"
+  },
+  {
+    "id": "18",
+    "name": "Four Rooms (1995)",
+    "type_str": "Thriller"
+  },
+  {
+    "id": "19",
+    "name": "Ace Ventura: When Nature Calls (1995)",
+    "type_str": "Comedy"
+  },
+  {
+    "id": "20",
+    "name": "Money Train (1995)",
+    "type_str": "Action"
+  },
+  {
+    "id": "21",
+    "name": "Get Shorty (1995)",
+    "type_str": "Action|Comedy|Drama"
+  },
+  {
+    "id": "22",
+    "name": "Copycat (1995)",
+    "type_str": "Crime|Drama|Thriller"
+  },
+  {
+    "id": "23",
+    "name": "Assassins (1995)",
+    "type_str": "Thriller"
+  },
+  {
+    "id": "24",
+    "name": "Powder (1995)",
+    "type_str": "Drama|Sci-Fi"
+  },
+  {
+    "id": "25",
+    "name": "Leaving Las Vegas (1995)",
+    "type_str": "Drama|Romance"
+  },
+  {
+    "id": "26",
+    "name": "Othello (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "27",
+    "name": "Now and Then (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "28",
+    "name": "Persuasion (1995)",
+    "type_str": "Romance"
+  },
+  {
+    "id": "29",
+    "name": "City of Lost Children, The (1995)",
+    "type_str": "Adventure|Sci-Fi"
+  },
+  {
+    "id": "30",
+    "name": "Shanghai Triad (Yao a yao yao dao waipo qiao) (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "31",
+    "name": "Dangerous Minds (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "32",
+    "name": "Twelve Monkeys (1995)",
+    "type_str": "Drama|Sci-Fi"
+  },
+  {
+    "id": "33",
+    "name": "Wings of Courage (1995)",
+    "type_str": "Adventure|Romance"
+  },
+  {
+    "id": "34",
+    "name": "Babe (1995)",
+    "type_str": "Children's|Comedy|Drama"
+  },
+  {
+    "id": "35",
+    "name": "Carrington (1995)",
+    "type_str": "Drama|Romance"
+  },
+  {
+    "id": "36",
+    "name": "Dead Man Walking (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "37",
+    "name": "Across the Sea of Time (1995)",
+    "type_str": "Documentary"
+  },
+  {
+    "id": "38",
+    "name": "It Takes Two (1995)",
+    "type_str": "Comedy"
+  },
+  {
+    "id": "39",
+    "name": "Clueless (1995)",
+    "type_str": "Comedy|Romance"
+  },
+  {
+    "id": "40",
+    "name": "Cry, the Beloved Country (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "41",
+    "name": "Richard III (1995)",
+    "type_str": "Drama|War"
+  },
+  {
+    "id": "42",
+    "name": "Dead Presidents (1995)",
+    "type_str": "Action|Crime|Drama"
+  },
+  {
+    "id": "43",
+    "name": "Restoration (1995)",
+    "type_str": "Drama"
+  },
+  {
+    "id": "44",
+    "name": "Mortal Kombat (1995)",
+    "type_str": "Action|Adventure"
+  }
+]

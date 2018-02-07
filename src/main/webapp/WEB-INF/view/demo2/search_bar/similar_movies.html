@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MRS-sm</title>
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/my.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--<link rel="stylesheet" href="css/font-awesome.min.css" />-->
+	<link rel="stylesheet" type="text/css" href="css/star-rating-svg.css">
+
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<!--[if IE]>
+	<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<!--<script src="js/echarts.js"></script>-->
+	<!--<script src="js/worldcloud.js"></script>-->
+	<!--<script src='https://cdn.bootcss.com/echarts/3.7.2/echarts.simple.js'></script>-->
+	<script src='https://unpkg.com/echarts@4.0.2/dist/echarts.min.js'></script>
+	<script src='js/echarts-wordcloud.js'></script>
+	<script src="js/my.js"></script>
+	<!--<script src="js/test.js"></script>-->
+</head>
+<body style="background-color: #eee;">
+	<header class="cd-main-header animate-search">
+		<div class="cd-logo"><a href="#0"><img src="img/siat_logo2016.png" alt="Logo"></a></div>
+
+		<nav class="cd-main-nav-wrapper">
+			<a href="#search" class="cd-search-trigger cd-text-replace">Search</a>
+			
+			<ul class="cd-main-nav">
+				<li><a href="#0">Home</a></li>
+				<li><a href="#0">Similar Movies</a></li>
+				<li><a href="#0">Similar Users</a></li>
+				<li><a href="#0">Contact</a></li>
+				<li><a href="#0">Sign in</a></li>
+				<li><a href="#0">Sign up</a></li>
+			</ul> <!-- .cd-main-nav -->
+		</nav> <!-- .cd-main-nav-wrapper -->
+
+		<a href="#0" class="cd-nav-trigger cd-text-replace">Menu<span></span></a>
+	</header>
+
+	<!-- **************************************** search detail (start) ****************************************-->
+	<div id="search" class="cd-main-search">
+		<form>
+			<input type="search" placeholder="Search...">
+
+			<div class="cd-select">
+				<span>in</span>
+				<select name="select-category">
+					<option value="all-categories">All Categories</option>
+					<option value="category1">Action</option>
+					<option value="category2">Adventure</option>
+					<option value="category3">Animation</option>
+					<option value="category4">Children's</option>
+					<option value="category5">Comedy</option>
+					<option value="category6">Crime</option>
+					<option value="category7">Documentary</option>
+					<option value="category8">Drama</option>
+					<option value="category9">Fantasy</option>
+					<option value="category10">Film-Noir</option>
+					<option value="category11">Horror</option>
+					<option value="category12">Musical</option>
+					<option value="category13">Mystery</option>
+					<option value="category14">Romance</option>
+					<option value="category15">Sci-Fi</option>
+					<option value="category16">Thriller</option>
+					<option value="category17">War</option>
+					<option value="category18">Western</option>
+				</select>
+				<span class="selected-value">All Categories</span>
+			</div>
+		</form>
+
+		<div class="cd-search-suggestions">
+			<div class="news">
+				<h3>New Movies</h3>
+				<ul>
+					<li>
+						<a class="image-wrapper" href="#0"><img src="img/Cabin Boy.jpg" alt="News image"></a>
+						<h4><a class="cd-nowrap" href="#0">Cabin Boy.</a></h4>
+						<time datetime="2016-01-12">1994</time>
+					</li>
+
+					<li style="margin-top: 20px;">
+						<a class="image-wrapper" href="#0"><img src="img/Die Macht der Bilder Leni Riefenstahl.jpg" alt="News image"></a>
+						<h4><a class="cd-nowrap" href="#0">Die Macht der Bilder: Leni Riefenstahl.</a></h4>
+						<time datetime="2016-01-12">1993</time>
+					</li>
+
+					<li style="margin-top: 20px;">
+						<a class="image-wrapper" href="#0"><img src="img/220px-Geronimo_film.jpg" alt="News image"></a>
+						<h4><a class="cd-nowrap" href="#0">Geronimo: An American Legend</a></h4>
+						<time datetime="2016-01-12">1993</time>
+					</li>
+				</ul>
+			</div> <!-- .news -->
+
+			<div class="quick-links">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="#0">Home</a></li>
+					<li><a href="#0">Contact</a></li>
+				</ul>
+			</div> <!-- .quick-links -->
+		</div> <!-- .cd-search-suggestions -->
+
+		<a href="#0" class="close cd-text-replace">Close Form</a>
+	</div> <!-- .cd-main-search -->
+	<div class="cd-cover-layer"></div> <!-- cover main content when search form is open -->
+	<!-- **************************************** search detail (end) ****************************************-->
+
+	<!-- **************************************** main container (start) ****************************************-->
+	<div class="container" style="background: #fff;padding: 2em;margin-top: 30px; width: 50%;">
+		<div class="row">
+			<!-- left side -->
+			<div class="col-xs-6 col-md-12 col-sm-6">
+				<div class="left-similar-search">
+					<!-- Similar Movies Search -->
+					<h4 id="left-similar-search-h4">Similarity Movies search</h4>
+					<div>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search for Toy Story ...">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button"  data-toggle="modal" data-target="#myModal_simi"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+						<h6>Please enter a movie name, the system will return some similar movies.</h6>
+					</div>
+
+					<!-- **************************** similar movies list *************************** -->
+					<div class="filtr-container col-md-12" style="padding: 0;margin-top: 30px;">
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="1, 5, 8, 9" data-sort="Busy streets">
+							<img class="img-responsive" src="img/top10-pic/1617.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">L.A. Confidential</a></div>
+								<div class="item-desc-detail-2">1997</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="2, 5, 9, 14" data-sort="Luminous night">
+							<img class="img-responsive" src="img/top10-pic/3005.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Bone Collector, The</a></div>
+								<div class="item-desc-detail-2">1999</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="1, 4, 7, 5, 16" data-sort="City wonders">
+							<img class="img-responsive" src="img/top10-pic/2858.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">American Beauty</a></div>
+								<div class="item-desc-detail-2">1999</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="3, 18, 11, 15, 6" data-sort="In production">
+							<img class="img-responsive" src="img/top10-pic/1639.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Chasing Amy</a></div>
+								<div class="item-desc-detail-2">1997</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="3, 4, 10, 17, 8" data-sort="Industrial site">
+							<img class="img-responsive" src="img/top10-pic/3536.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Keeping the Faith</a></div>
+								<div class="item-desc-detail-2">2000</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="2, 17, 12, 11, 7" data-sort="Peaceful lake">
+							<img class="img-responsive" src="img/top10-pic/3354.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Mission to Mars</a></div>
+								<div class="item-desc-detail-2">2000</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="16, 5, 14, 6" data-sort="City lights">
+							<img class="img-responsive" src="img/top10-pic/593.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Silence of the Lambs, The</a></div>
+								<div class="item-desc-detail-2">1991</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="2, 4, 15, 13, 7" data-sort="Dreamhouse">
+							<img class="img-responsive" src="img/top10-pic/3565.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Where the Heart Is</a></div>
+								<div class="item-desc-detail-2">2000</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="3, 14, 13, 18, 6" data-sort="Restless machines">
+							<img class="img-responsive" src="img/top10-pic/2997.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">Being John Malkovich</a></div>
+								<div class="item-desc-detail-2">1999</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+						<div class="col-xs-6 col-sm-4 col-md-3 filtr-item filtr-item-sm" data-category="3, 14, 13, 18, 6" data-sort="Restless machines">
+							<img class="img-responsive" src="img/top10-pic/3022.jpg" alt="sample image">
+							<div class="item-desc-detail">
+								<div class="item-desc-detail-1"><a href="#">General, The</a></div>
+								<div class="item-desc-detail-2">1927</div>
+							</div>
+							<div class="download-btn"><a href="#">Detail</a></div>
+						</div>
+					</div>
+					<!-- **************************** similar movies list *************************** -->
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<!-- **************************************** main container (end) ****************************************-->
+
+	<script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+
+	<!-- copy rights -->
+	<div class="copy-rights text-center">
+		<p><a href="#">Help</a>&nbsp;&nbsp;&nbsp;<a href="#">Terms & Conditions</a>&nbsp;&nbsp;&nbsp;<a href="#">Cooperation</a></p>
+		<p><a href="#">BMI</a><a href="#">, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences</a></p>
+		<p><a href="#">Copyright &copy; 2018</a> - <a href="#">Yongbo Wang</a></p>
+	</div>
+
+</body>
+</html>
